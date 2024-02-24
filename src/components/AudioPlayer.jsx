@@ -6,9 +6,8 @@ function AudioPlayer() {
     <ReactPlayer
       url="/audio/audio.mp3"
       autoPlay      
-      controls            
-      width="10%"
-      height="50px"
+      controls      
+      height="40px"
     />
   );
 }

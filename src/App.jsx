@@ -8,8 +8,7 @@ function App() {
   return (
     <>
     <Menu />
-       <Routes>
-       
+       <Routes>       
         <Route path="/" element={<Inicio />} />
         <Route path="/utensillos" element={<Utensillos />} />
         <Route path="/muebles" element={<Muebles />} />

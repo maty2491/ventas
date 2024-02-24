@@ -2,3 +2,21 @@
     width: 250px;
     height: 150px;
   }
+  .navbar {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+}
+
+/* Estilos para el menú desplegable */
+.collapse {
+    justify-content: center; /* Centrado horizontal */
+}
+
+/* Estilos para el contenedor del reproductor de audio */
+.audio-player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Centrado horizontal */
+}
+
