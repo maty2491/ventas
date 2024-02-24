@@ -1,22 +1,40 @@
-.img-mediana{
-    width: 250px;
-    height: 150px;
-  }
-  .navbar {
-    display: flex;
-    justify-content: center; /* Centrado horizontal */
+.img-mediana {
+  max-width: 400px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+.navbar {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
 }
 
 /* Estilos para el menú desplegable */
 .collapse {
-    justify-content: center; /* Centrado horizontal */
+  justify-content: center; /* Centrado horizontal */
 }
 
 /* Estilos para el contenedor del reproductor de audio */
 .audio-player-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px; /* Centrado horizontal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Centrado horizontal */
 }
 
+.boton {
+  background-color: #ffd90f;
+  color: rgb(253, 253, 253);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none !important; /* Elimina el subrayado del enlace */
+}
+
+.boton:hover {
+  background-color: #ffb700;
+  color: aliceblue; /* Cambia el color de fondo al pasar el ratón */
+}

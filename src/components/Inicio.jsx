@@ -1,14 +1,17 @@
 import ventas from "/assets/homero.png"
-
+import { Link } from 'react-router-dom';
 const Inicio = () => {
     return (
-        <div className='container'>
-            
-            <h1 className="text-warning text-center">"Hey Don Gaston, llevate el vasón!</h1>
-            <h2 className="text-center">Tienda de venta rapida de articulos para el hogar</h2>
-            
-            <img src={ventas} className='img-fluid rounded d-flex mx-auto' alt="" />
-
+        <div className='container-fluid'>
+            <div class="jumbotron">
+                <img src={ventas} className='img-fluid rounded d-flex mx-auto' alt="" />
+                <h1 class="display-4 text-warning">Hey Don Gaston, llevate el vasón!</h1>
+                <p class="lead">Bienvenido a la tienda de venta rápida de artículos para el hogar, por favor tenga en cuenta que esta hecho todo a pulmon y para la comodidad del usuario.</p>
+                <hr class="my-4" />
+                <p className="mb-5">Ante cualquier consulta no dude en contactarse con nosotros</p>
+                <Link to="/utensillos" className="boton mr-2 ">UTENSILLOS</Link>
+                <Link to="/muebles" className="boton mr-2">MUEBLES</Link>
+            </div>
         </div>
     )
 }

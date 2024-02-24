@@ -13,7 +13,7 @@
         "id": 2,
         "nombre": "Caramelera",
         "categoria": "Utensillos",
-        "precio": 5000,
+        "precio": 5500,
         "descripcion": "Caramelera de vidrio",
         "imagen": "copa.jpeg"
       },
@@ -32,7 +32,105 @@
         "precio": 12000,
         "descripcion": "Juego de tazas japonesas",
         "imagen": "juego-japon-b.jpeg"
+      },
+      {
+        "id": 5,
+        "nombre": "Pocillos de café y azucarera",
+        "categoria": "Utensillos",
+        "precio": 10000,
+        "descripcion": "Set de café pocillos con plata jarra de leche y azucarera todo cerámica",
+        "imagen": "juego-completo-tazas.jpeg"
+      },
+      {
+        "id": 6,
+        "nombre": "Copas cristal base negra",
+        "categoria": "Utensillos",
+        "precio": 11000,
+        "descripcion": "Set de copas de cristal con base negra",
+        "imagen": "copas-base-negra.jpeg"
+      },
+      {
+        "id": 7,
+        "nombre": "Copas champagne",
+        "categoria": "Utensillos",
+        "precio": 11000,
+        "descripcion": "Set copas de champagne vidrio",
+        "imagen": "copas-juntas.jpeg"
+      },
+      {
+        "id": 8,
+        "nombre": "Copas de postre",
+        "categoria": "Utensillos",
+        "precio": 6000,
+        "descripcion": "Set de copas postre vidrio",
+        "imagen": "copitas-juego.jpeg"
+      },
+      {
+        "id": 8,
+        "nombre": "Copas varias",
+        "categoria": "Utensillos",
+        "precio": 3500,
+        "descripcion": "Dos pares de copas vidrios de agua, vino y champagne (precio por cada par)",
+        "imagen": "copas-varias.jpeg"
+      },
+      {
+        "id": 9,
+        "nombre": "Jarra",
+        "categoria": "Utensillos",
+        "precio": 3500,
+        "descripcion": "Jarra cerveza de vidrio Oktoberfest",
+        "imagen": "vaso-cerveza.jpeg"
+      },
+      {
+        "id": 11,
+        "nombre": "Copas de sidra",
+        "categoria": "Utensillos",
+        "precio": 4000,
+        "descripcion": "Set copas de sidra de vidrio",
+        "imagen": "copas-basicas.jpeg"
+      },
+      {
+        "id": 12,
+        "nombre": "Tazas de café",
+        "categoria": "Utensillos",
+        "precio": 7500,
+        "descripcion": "Set tazas de café cerámica con plato",
+        "imagen": "tazas-amarillas.jpeg"
+      },
+      {
+        "id": 13,
+        "nombre": "VENDIDO - Vasos de whisky",
+        "categoria": "Utensillos",
+        "precio": 3500,
+        "descripcion": "Set  vasos de whisky de cristal original",
+        "imagen": "vaso-whisky.jpeg"
+      },
+      {
+        "id": 15,
+        "nombre": "Platos ceramicos",
+        "categoria": "Utensillos",
+        "precio": 1500,
+        "descripcion": "Platos de cerámica (24cm) (precio por unidad)",
+        "imagen": "platos.jpg"
       }
-    ]
+    ],
+    "muebles":[
+      {
+        "id": 10,
+        "nombre": "Silla de hierro",
+        "categoria": "Muebles",
+        "precio": 30000,
+        "descripcion": "Silla hierro decoración diseño personalizado",
+        "imagen": "silla-metal.jpeg"
+      },
+      {
+        "id": 14,
+        "nombre": "Mesa ratonera",
+        "categoria": "Muebles",
+        "precio": 27000,
+        "descripcion": "Mesa ratonera de hierro negra",
+        "imagen": "mesa-ratonera.jpg"
+      }
+    ]    
   }
 }

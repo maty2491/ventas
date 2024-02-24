@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AudioPlayer from '../components/AudioPlayer';
+import borbotones from '/assets/borbotones.png'
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +12,10 @@ const Menu = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <Link className="navbar-brand" to="/">VENTAS</Link>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <Link class="navbar-brand" to="/">
+                    <img src={borbotones} width="140" height="70" alt=""/>
+                </Link>
                 <button className="navbar-toggler" type="button" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
