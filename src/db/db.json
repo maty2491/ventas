@@ -1,0 +1,38 @@
+{
+  "products": {
+    "utensillos": [
+      {
+        "id": 1,
+        "nombre": "Cenicero",
+        "categoria": "Utensillos",
+        "precio": 2500,
+        "descripcion": "Cenicero de vidrio",
+        "imagen": "cenicero.jpeg"
+      },
+      {
+        "id": 2,
+        "nombre": "Caramelera",
+        "categoria": "Utensillos",
+        "precio": 5000,
+        "descripcion": "Caramelera de vidrio",
+        "imagen": "copa.jpeg"
+      },
+      {
+        "id": 3,
+        "nombre": "Tazas de cerámica café con plato",
+        "categoria": "Utensillos",
+        "precio": 9000,
+        "descripcion": "Juego de tazas con detalles graficos de flores",
+        "imagen": "juego-chino.jpeg"
+      },
+      {
+        "id": 4,
+        "nombre": "Tazas japonesas",
+        "categoria": "Utensillos",
+        "precio": 12000,
+        "descripcion": "Juego de tazas japonesas",
+        "imagen": "juego-japon-b.jpeg"
+      }
+    ]
+  }
+}
