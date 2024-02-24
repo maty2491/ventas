@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import AudioPlayer from '../components/AudioPlayer';
 const Menu = () => {
     return (
         <>
@@ -23,6 +23,7 @@ const Menu = () => {
                         </li>
                     </ul>
                 </div>
+                <AudioPlayer/>
             </nav>
         </>
     );
