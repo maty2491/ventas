@@ -13,7 +13,7 @@ const Menu = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link class="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/">
                     <img src={borbotones} width="140" height="70" alt=""/>
                 </Link>
                 <button className="navbar-toggler" type="button" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation">
