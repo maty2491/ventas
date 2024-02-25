@@ -12,7 +12,7 @@ const Menu = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                 <Link className="navbar-brand" to="/">
                     <img src={borbotones} width="140" height="70" alt=""/>
                 </Link>
