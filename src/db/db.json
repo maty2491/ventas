@@ -35,7 +35,7 @@
       },
       {
         "id": 5,
-        "nombre": "Pocillos de café y azucarera",
+        "nombre": "VENDIDO - Pocillos de café y azucarera",
         "categoria": "Utensillos",
         "precio": 10000,
         "descripcion": "Set de café pocillos con plata jarra de leche y azucarera todo cerámica",
@@ -59,7 +59,7 @@
       },
       {
         "id": 8,
-        "nombre": "Copas de postre",
+        "nombre": "VENDIDO - Copas de postre",
         "categoria": "Utensillos",
         "precio": 6000,
         "descripcion": "Set de copas postre vidrio",
@@ -91,7 +91,7 @@
       },
       {
         "id": 12,
-        "nombre": "Tazas de café",
+        "nombre": "VENDIDO - Tazas de café",
         "categoria": "Utensillos",
         "precio": 7500,
         "descripcion": "Set tazas de café cerámica con plato",
@@ -107,7 +107,7 @@
       },
       {
         "id": 15,
-        "nombre": "VENDIDO - NUEVA TANDA PROXIMA SEMANA Platos ceramicos",
+        "nombre": "VENDIDO - Platos ceramicos",
         "categoria": "Utensillos",
         "precio": 1500,
         "descripcion": "Platos de cerámica (24cm) (precio por unidad)",
